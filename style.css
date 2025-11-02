@@ -1,0 +1,173 @@
+/* CSS For Hero Section*/
+
+.hero-menu {
+    list-style-position: inside;
+    line-height: 20px;
+    list-style-image: url('/images/nav_bullet.png');
+}
+
+.hero-menu li {
+    margin: 8px 0;
+    border-bottom: 1px dotted;
+}
+
+.hero-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.hero-menu a:hover {
+    color: #007bff;
+}
+
+.hero-section {
+    border-top: 5px solid gold;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom: 5px solid rgb(208, 207, 207);
+}
+
+/* Features Products CSS */
+
+.add-to-cart-button {
+    background-color: gold;
+}
+
+/* Featured Side Content CSS */
+
+.aside {
+    float: left;
+}
+
+.product1-details {
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid;
+}
+
+.cat-heading {
+    color: white;
+}
+
+.cat-items {
+    justify-self: center;
+    list-style: none;
+}
+
+.cat-items li {
+    margin: 8px 0;
+    border-bottom: 1px dotted;
+}
+
+.cat-items a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.cat-items a:hover {
+    color: #007bff;
+}
+
+.brand-select {
+    width: 100%;
+    max-height: max-content;
+}
+
+.brand-heading {
+    color: white;
+}
+
+
+/* Featured Products CSS */
+
+.prdts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-buttons {
+    font-size: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* You Will Like Proucts CSS */
+
+.like-products {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 30px;
+}
+
+.like-product1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.int-price {
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.off-price {
+    color: red;
+}
+
+.like-p-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    padding: 8px;
+}
+
+/* Promo Container CSS */
+
+.promo-container {
+    padding-bottom: 7px;
+    border-bottom: 5px solid rgb(169, 166, 166);
+}
+
+/* Footer CSS */
+
+.footer-container {
+    display: flex;
+    justify-self: center;
+}
+
+.payment-gateways {
+    border-right: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-menu-item {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-right: 1px solid gray;
+}
+
+.footer-menu-last-item {
+    padding-left: 10px;
+}
+
+.dev-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+}
